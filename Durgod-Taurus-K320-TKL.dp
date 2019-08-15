@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Parameters>
+    <config name="amacs(1)" icon="" app="">
+        <light sample="1" clickLight="8520124" rgb="FF0000" dpiLight="2675472" lightSame="0" lightness="9" rgbhx="FF00000000FF" power="0" mode="0" type="1" direction="0" speed="2"/>
+        <light2 sample="1" clickLight="9710684" rgb="FF0000" dpiLight="0" lightSame="0" lightness="9" rgbhx="FF00000000FF" mode="0" type="1" linkage="1" direction="0" speed="2"/>
+        <light3 sample="1" clickLight="65092784" rgb="FF0000" dpiLight="9740760" lightSame="0" lightness="9" rgbhx="FF00000000FF" mode="0" type="1" linkage="1" direction="0" speed="2"/>
+        <ribbon>
+            <mode centerPoint="469,150" index="0"/>
+            <mode centerPoint="469,150" index="1"/>
+            <mode centerPoint="469,150" index="2"/>
+            <mode centerPoint="469,150" index="3"/>
+            <mode centerPoint="469,150" index="4"/>
+            <mode centerPoint="469,150" index="5"/>
+            <mode centerPoint="469,150" index="6"/>
+            <mode centerPoint="469,150" index="7"/>
+            <mode centerPoint="469,150" index="8"/>
+            <mode centerPoint="469,150" index="9"/>
+            <mode centerPoint="469,150" index="100"/>
+            <mode centerPoint="469,150" index="101"/>
+            <mode centerPoint="469,150" index="102"/>
+            <mode centerPoint="469,150" index="103"/>
+            <mode centerPoint="469,150" index="104"/>
+            <mode centerPoint="469,150" index="105"/>
+        </ribbon>
+        <macro>
+            <item value="162" keyCode="20" key="Cap" tagId="146227008" repeat="0" mode="0" keyIndex="63" type="2"/>
+            <item value="91" keyCode="164" key="Alt" tagId="146227008" repeat="0" mode="0" keyIndex="107" type="2"/>
+            <item value="164" keyCode="91" key="Win" tagId="146227008" repeat="0" mode="0" keyIndex="106" type="2"/>
+            <item value="163" keyCode="162" key="Ctrl" tagId="146227008" repeat="0" mode="0" keyIndex="105" type="2"/>
+            <item value="164" keyCode="93" key="App" tagId="146227008" repeat="0" mode="0" keyIndex="117" type="2"/>
+            <item value="162" keyCode="45" key="Ins" tagId="146227008" repeat="0" mode="0" keyIndex="35" type="2"/>
+            <item value="91" keyCode="36" key="Home" tagId="146227008" repeat="0" mode="0" keyIndex="36" type="2"/>
+            <item value="163" keyCode="33" key="PU" tagId="146227008" repeat="0" mode="0" keyIndex="37" type="2"/>
+            <item value="164" keyCode="46" key="Del" tagId="146227008" repeat="0" mode="0" keyIndex="56" type="2"/>
+            <item value="92" keyCode="35" key="End" tagId="146227008" repeat="0" mode="0" keyIndex="57" type="2"/>
+            <item value="160" keyCode="161" key="Shift" tagId="146227008" repeat="0" mode="0" keyIndex="97" type="2"/>
+            <item value="160" keyCode="34" key="PD" tagId="146227008" repeat="0" mode="0" keyIndex="58" type="2"/>
+            <item value="92" keyCode="165" key="Alt" tagId="0" repeat="0" mode="0" keyIndex="115" type="2"/>
+            <item value="27" keyCode="163" key="Ctrl" tagId="0" repeat="0" mode="0" keyIndex="118" type="2"/>
+            <item value="20" keyCode="19" key="PB" tagId="0" repeat="0" mode="0" keyIndex="16" type="2"/>
+            <item value="165" keyCode="145" key="SL" tagId="0" repeat="0" mode="0" keyIndex="15" type="2"/>
+        </macro>
+        <dpi index="0"/>
+        <function feature3="0" correction="0" feature4="0" reportRate="3" acceleration="0" feature1="0" feature2="0"/>
+        <bindMacro/>
+    </config>
+</Parameters>

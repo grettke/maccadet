@@ -45,11 +45,11 @@ The orange keys are not remapped but they've got a modifier configured for them 
 
 Here are the characters for specifying the modifier in your key bindings (these are the last character listed on the keycap here):
 
-- C :: Control
-- M :: Meta
-- s :: Super
-- H :: Hyper
-- A :: Alt
+- C : Control
+- M : Meta
+- s : Super
+- H : Hyper
+- A : Alt
 
 The setups follow.
 
@@ -65,10 +65,7 @@ Notable about each keyboard is that you can press the keys "Control-Meta-Super-H
 
 ** Durgod Taurus K320 TKL
 
-file:DurgodTaurusK320TKL.png]]
-
-
-[[file:allmodifiers.png]]
+[[file:/DurgodTaurusK320TKL.png]]
 
 ** MacBook Pro Late 2013
 

@@ -51,20 +51,9 @@ Here are the characters for specifying the modifier in your key bindings (these 
 - H :: Hyper
 - A :: Alt
 
-Here is the current setup:
+The setups follow.
 
-** MacBook Pro Late 2013
-
-[[file:/macbook-pro-late-2013.png]]
-
-** Durgod Taurus K320 TKL
-
-[[file:DurgodTaurusK320TKL.png]]
-
-Notable about this configuration:
-
-- Right-Alt remains free so you can use it to input special characters using macOS
-- Can press the keys "Control-Meta-Super-Hyper-Alt-Shift" with one hand. For example
+Notable about each keyboard is that you can press the keys "Control-Meta-Super-Hyper-Alt-Shift" with one hand. For example
 
 #+BEGIN_SRC emacs-lisp
 (defun test () (interactive) (message "Yup, it worked."))
@@ -72,3 +61,19 @@ Notable about this configuration:
 #+END_SRC
 
 [[file:allmodifiers.png]]
+
+
+** Durgod Taurus K320 TKL
+
+file:DurgodTaurusK320TKL.png]]
+
+#+BEGIN_SRC emacs-lisp
+(defun test () (interactive) (message "Yup, it worked."))
+(global-set-key (kbd "C-M-s-H-A-F") #'test)
+#+END_SRC
+
+[[file:allmodifiers.png]]
+
+** MacBook Pro Late 2013
+
+[[file:/macbook-pro-late-2013.png]]

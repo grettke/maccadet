@@ -12,6 +12,7 @@ When non-Emacs users observe Emacs users laboring over their key binding configu
 - Least invasive changes to physical keyboard layout
 - Least invasive changes to Emacs bindings for which you already have strong muscle memory.
 - Least invasive to macOS's keybindings
+- Mirrored meta keys
 
 * Requirements And Compatibility
 

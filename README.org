@@ -9,10 +9,11 @@ When non-Emacs users observe Emacs users laboring over their key binding configu
 * Goal
 
 - Usable on stock Mac keyboards and Windows (ANSI) keyboard.
-- Least invasive changes to physical keyboard layout
-- Least invasive changes to Emacs bindings for which you already have strong muscle memory.
-- Least invasive to macOS's keybindings
 - Mirrored meta keys
+- Minimize invasive changes to
+  - the physical keyboard layout
+  - the Emacs bindings for which you already have strong muscle memory.
+  - the built-in macOS's keybindings
 
 * Requirements And Compatibility
 

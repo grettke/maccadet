@@ -67,10 +67,6 @@ Notable about each keyboard is that you can press the keys "Control-Meta-Super-H
 
 file:DurgodTaurusK320TKL.png]]
 
-#+BEGIN_SRC emacs-lisp
-(defun test () (interactive) (message "Yup, it worked."))
-(global-set-key (kbd "C-M-s-H-A-F") #'test)
-#+END_SRC
 
 [[file:allmodifiers.png]]
 

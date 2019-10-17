@@ -35,9 +35,9 @@ Load the ~maccadet.el~ file in your init file.
 
 The pink keys were remapped from their hardware configuration. Their defintion is contained on the cap itself. They are in the form of:
 
-- "Physical key name.
+- Physical key name.
 - The key it is getting mapped to (either a USB spec modifier name or a shortened ANSI name).
-- The Emacs modifier for it."
+- The Emacs modifier for it.
 
 On the ANSI keyboard they go from top to bottom. mac keyboard they go from bottom to top.
 

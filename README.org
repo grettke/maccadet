@@ -1,0 +1,74 @@
+* About
+
+Use all of Emacs's modifiers on macOS with various keyboards.
+
+* Purpose
+
+When non-Emacs users observe Emacs users laboring over their key binding configuration their typical range of reactions include finding it to be interesting, surprising, remarkable, strange, weird, incredible, striking, bizarre, deviant, eccentric, freakish, monstrous, incomprehensible, inconceivable, incredible, unimaginable, and unthinkable. With that range reactions in mind it is self-evident that if you are reading this then you already know /why/ you want to use more of the Emacs's modifier keys you just want to know /how/. The purpose of this project is to capture /one/ way of using all of Emacs's modifier keys.
+
+* Goal
+
+- Usable on stock Mac keyboards and Windows (ANSI) keyboard.
+- Least invasive changes to physical keyboard layout
+- Least invasive changes to Emacs bindings for which you already have strong muscle memory.
+- Least invasive to macOS's keybindings
+
+* Requirements And Compatibility
+
+It was tested against:
+
+- A macbook-pro-late-2013 running macOS 10.12 Sierra
+  - Using its built in keyboard and [[https://pqrs.org/osx/karabiner/][Karabiner-Elements]].
+  - Using a [[https://www.amazon.com/Durgod-Taurus-Mechanical-Gaming-Keyboard/dp/B07QK16RDQ/ref=sr_1_3][Durgod Taurus K320 TKL]] and their [[http://www.durgod.com/page6?_l=en][Zeus Engine (keyboard configurator software)]] that runs on Windows.
+
+* Use
+
+Download the software for your hardware and use the configuration in this repository.
+
+Mac uses ~macbook-pro-late-2013.json~ for Karabiner
+
+Durgod uses ~DurgodTaurusK320TKL.xml~ for their Zeus Engine.
+
+Load the ~maccadet.el~ file in your init file.
+
+* Legend
+
+The pink keys were remapped from their hardware configuration. Their defintion is contained on the cap itself. They are in the form of:
+
+- "Physical key name.
+- The key it is getting mapped to (either a USB spec modifier name or a shortened ANSI name).
+- The Emacs modifier for it."
+
+On the ANSI keyboard they go from top to bottom. mac keyboard they go from bottom to top.
+
+The orange keys are not remapped but they've got a modifier configured for them in Emacs.
+
+Here are the characters for specifying the modifier in your key bindings (these are the last character listed on the keycap here):
+
+- C :: Control
+- M :: Meta
+- s :: Super
+- H :: Hyper
+- A :: Alt
+
+Here is the current setup:
+
+** MacBook Pro Late 2013
+
+[[file:/macbook-pro-late-2013.png]]
+
+** Durgod Taurus K320 TKL
+
+[[file:DurgodTaurusK320TKL.png]]
+
+Notable about this configuration:
+
+- Right-Alt remains free so you can use it to input special characters using macOS
+- Can press the keys "Control-Meta-Super-Hyper-Alt-Shift" with one hand. For example
+
+#+BEGIN_SRC emacs-lisp
+(defun test () (interactive) (message "Yup, it worked."))
+(global-set-key (kbd "C-M-s-H-A-F") #'test)
+#+END_SRC
+
+[[file:allmodifiers.png]]

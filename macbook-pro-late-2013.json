@@ -1,0 +1,198 @@
+[
+  {
+    "name": "MacBook Pro Late 2013 - Mac Cadet V2",
+    "notes": "Lessons & Revisions\n- Sacrifice a rt-alt Mac only modifier in Emacs\n  - Therefore F12 change not necessary: toggle lf-alt\n- Caps Lock sacrified for Hyper\n- As single modifier's balance must be sacrified. \n  Shift felt too painful to be only on one side. Hyper\n  felt fine having one key because it is comfortable for me\n  with my left hand and I don't mind it. Super should be avoided\n  anyway so it is far to the left, unchanged. "
+  },
+  [
+    {
+      "y": 0.5,
+      "a": 7
+    },
+    "esc",
+    {
+      "a": 4
+    },
+    "\n\n\nF1\n\n\n\n\n\n🖥️💡▼",
+    "\n\n\nF2\n\n\n\n\n\n🖥️💡▲",
+    "\n\n\nF3\n\n\n\n\n\n🧱",
+    {
+      "w": 1.25
+    },
+    "\n\n\nF4\n\n\n\n\n\n🚀",
+    "\n\n\nF5\n\n\n\n\n\n⌨️💡▼",
+    "\n\n\nF6\n\n\n\n\n\n⌨️💡▲",
+    "\n\n\nF7\n\n\n\n\n\n⏪",
+    "\n\n\nF8\n\n\n\n\n\n⏯",
+    "\n\n\nF9\n\n\n\n\n\n⏩",
+    "\n\n\nF10\n\n\n\n\n\n🕨",
+    "\n\n\nF11\n\n\n\n\n\n🕩",
+    {
+      "a": 5
+    },
+    "\nF12\n\n\n\n\n🕪",
+    {
+      "a": 7,
+      "w": 1.25
+    },
+    "⏼"
+  ],
+  [
+    {
+      "a": 4
+    },
+    "~\n`",
+    "!\n1",
+    "@\n2",
+    "#\n3",
+    "$\n4",
+    "%\n5",
+    "^\n6",
+    "&\n7",
+    "*\n8",
+    "(\n9",
+    ")\n0",
+    "_\n-",
+    "+\n=",
+    {
+      "w": 1.5
+    },
+    "\n\n\ndelete"
+  ],
+  [
+    {
+      "w": 1.5
+    },
+    "\ntab",
+    {
+      "a": 7
+    },
+    "Q",
+    "W",
+    "E",
+    "R",
+    "T",
+    "Y",
+    "U",
+    "I",
+    "O",
+    "P",
+    {
+      "a": 4
+    },
+    "{\n[",
+    "}\n]",
+    "|\n\\"
+  ],
+  [
+    {
+      "c": "#ffbaba",
+      "w": 1.75
+    },
+    "\ncaps lock\n\n\n\n\n\n\n\"C\"\nLCON",
+    {
+      "c": "#cccccc",
+      "a": 7
+    },
+    "A",
+    "S",
+    "D",
+    {
+      "n": true
+    },
+    "F",
+    "G",
+    "H",
+    {
+      "n": true
+    },
+    "J",
+    "K",
+    "L",
+    {
+      "a": 4
+    },
+    ":\n;",
+    "\"\n'",
+    {
+      "w": 1.75
+    },
+    "\n\nenter\nreturn"
+  ],
+  [
+    {
+      "w": 2.25
+    },
+    "\nshift",
+    {
+      "a": 7
+    },
+    "Z",
+    "X",
+    "C",
+    "V",
+    "B",
+    "N",
+    "M",
+    {
+      "a": 4
+    },
+    "<\n,",
+    ">\n.",
+    "?\n/",
+    {
+      "w": 2.25
+    },
+    "\n\n\nshift"
+  ],
+  [
+    {
+      "c": "#ffbaba"
+    },
+    "\nfn\n\n\n\n\n\n\n\"s\"\nFN",
+    "\ncontrol\n\n\n\n\n\n\n\"H\"\nRGUI",
+    {
+      "c": "#f5be20"
+    },
+    "\noption\n\n\n\n\n\n\n\"M\"\nLALT",
+    {
+      "w": 1.25
+    },
+    "\ncommand\n\n\n\n\n\n\n\"A\"\nLGUI",
+    {
+      "c": "#cccccc",
+      "a": 7,
+      "w": 5
+    },
+    "",
+    {
+      "c": "#ffbaba",
+      "a": 4,
+      "w": 1.25
+    },
+    "\ncommand\n\n\n\n\n\n\n\"A\"\nLGUI",
+    "\noption\n\n\n\n\n\n\n\"H\"\nRGUI",
+    {
+      "x": 1,
+      "c": "#cccccc",
+      "a": 7,
+      "h": 0.5
+    },
+    "▲"
+  ],
+  [
+    {
+      "y": -0.5,
+      "x": 11.5,
+      "h": 0.5
+    },
+    "◀",
+    {
+      "h": 0.5
+    },
+    "▼",
+    {
+      "h": 0.5
+    },
+    "▶"
+  ]
+]

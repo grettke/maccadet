@@ -1,11 +1,20 @@
+;; LCON
 (setq ns-control-modifier 'control)
 
-(setq ns-right-control-modifier 'meta)
+;; RCON
+(setq ns-right-control-modifier 'super)
 
-(setq ns-right-command-modifier 'super)
+;; LALT
+(setq ns-alternate-modifier 'meta)
 
-(setq ns-alternate-modifier 'hyper)
+;; RALT
+(setq ns-right-alternate-modifier 'none)
 
+;; LGUI
 (setq ns-command-modifier 'alt)
 
-(setq ns-right-alternate-modifier 'none)
+;; RGUI
+(setq ns-right-command-modifier 'hyper)
+
+;; FN (MAC ONLY)
+(setq ns-function-modifier 'super)

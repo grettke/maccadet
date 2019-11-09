@@ -69,20 +69,6 @@
       <!-- PAUSE -> CAPS LOCK -->
       <item value="20" keyCode="19" key="PB" tagId="0" repeat="0" mode="0" keyIndex="16" type="2"/>
 
-      <!-- INS ->  Left CONTROL -->
-      <item value="162" keyCode="45" key="Ins" tagId="146227008" repeat="0" mode="0" keyIndex="35" type="2"/>
-      <!-- HOME -> Left MENU (ALT) -->
-      <item value="164" keyCode="36" key="Home" tagId="146227008" repeat="0" mode="0" keyIndex="36" type="2"/>
-      <!-- PAGE UP -> Right CONTROL -->
-      <item value="163" keyCode="33" key="PU" tagId="146227008" repeat="0" mode="0" keyIndex="37" type="2"/>
-
-      <!-- DEL -> Right Windows (GUI) -->
-      <item value="92" keyCode="46" key="Del" tagId="146227008" repeat="0" mode="0" keyIndex="56" type="2"/>
-      <!-- END -> Left Windows (GUI) -->
-      <item value="91" keyCode="35" key="End" tagId="146227008" repeat="0" mode="0" keyIndex="57" type="2"/>
-      <!-- PAGE DOWN -> Right Shift -->
-      <item value="161" keyCode="34" key="PD" tagId="146227008" repeat="0" mode="0" keyIndex="58" type="2"/>
-
     </macro>
     <dpi index="0"/>
     <function feature3="0" correction="0" feature4="0" reportRate="3" acceleration="0" feature1="0" feature2="0"/>

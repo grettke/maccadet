@@ -1,6 +1,6 @@
 [
   {
-    "name": "MacCadet - DurgodTaurusK320TKL"
+    "name": "MacCadet - DurgodTaurusK320TKL - Simple"
   },
   [
     "Esc",
@@ -58,16 +58,14 @@
     },
     "Backspace",
     {
-      "x": 0.25,
-      "c": "#ffbaba"
+      "x": 0.25
     },
-    "Insert\n\n\n\n\n\n\n\n\nLCON\n\"C\"",
-    "Home\n\n\n\n\n\n\n\n\nLALT\n\"M\"",
-    "PgUp\n\n\n\n\n\n\n\n\nRCON\n\"s\""
+    "Insert",
+    "Home",
+    "PgUp"
   ],
   [
     {
-      "c": "#cccccc",
       "w": 1.5
     },
     "Tab",
@@ -88,15 +86,15 @@
     },
     "|\n\\",
     {
-      "x": 0.25,
-      "c": "#ffbaba"
+      "x": 0.25
     },
-    "Delete\n\n\n\n\n\n\n\n\nRGUI\n\"H\"",
-    "End\n\n\n\n\n\n\n\n\nLGUI\n\"A\"",
-    "PgDn\n\n\n\n\n\n\n\n\nRSFT"
+    "Delete",
+    "End",
+    "PgDn"
   ],
   [
     {
+      "c": "#ffbaba",
       "w": 1.75
     },
     "Caps Lock\n\n\n\n\n\n\n\n\nLCON\n\"C\"",

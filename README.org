@@ -4,6 +4,20 @@
 
 Use all of Emacs's modifiers on macOS with various keyboards.
 
+* Table of Contents
+:PROPERTIES:
+:toc:      all
+:END:
+-  [[#about][About]]
+-  [[#table-of-contents][Table of Contents]]
+-  [[#purpose][Purpose]]
+-  [[#goal][Goal]]
+-  [[#requirements-and-compatibility][Requirements And Compatibility]]
+-  [[#use][Use]]
+-  [[#legend][Legend]]
+  -  [[#durgod-taurus-k320-tkl][Durgod Taurus K320 TKL]]
+  -  [[#macbook-pro-late-2013][MacBook Pro Late 2013]]
+
 * Purpose
 
 When non-Emacs users observe Emacs users laboring over their key binding configuration their typical range of reactions include finding it to be interesting, surprising, remarkable, strange, weird, incredible, striking, bizarre, deviant, eccentric, freakish, monstrous, incomprehensible, inconceivable, incredible, unimaginable, and unthinkable. With that range reactions in mind it is self-evident that if you are reading this then you already know /why/ you want to use more of the Emacs's modifier keys you just want to know /how/. The purpose of this project is to capture /one/ way of using all of Emacs's modifier keys.

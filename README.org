@@ -31,25 +31,33 @@ When non-Emacs users observe Emacs users laboring over their key binding configu
   - the Emacs bindings for which you already have strong muscle memory.
   - the built-in macOS keybindings
 
-* Requirements And Compatibility
+* Usage
 
-It was tested against:
+Load ~maccadet.el~ file in your init file and study it. It defines the mapping between the USB modifiers CONTROL, GUI, and ALT (see [[http://www.usb.org/developers/hidpage/HID1_11.pdf][USB Modifier Specification]]) and the Emacs modifiers.
 
-- A macbook-pro-late-2013 running macOS 10.12 Sierra
-  - Using its built in keyboard and [[https://pqrs.org/osx/karabiner/][Karabiner-Elements]].
-  - Using a [[https://www.amazon.com/Durgod-Taurus-Mechanical-Gaming-Keyboard/dp/B07QK16RDQ/ref=sr_1_3][Durgod Taurus K320 TKL]] and their [[http://www.durgod.com/page6?_l=en][Zeus Engine (keyboard configurator software)]] that runs on Windows.
+To put those mappings into effect you can either configure your keyboard using software or using hardware.
 
-* Use
+The software route uses [[https://pqrs.org/osx/karabiner/][Karabiner-Elements]]:
 
-Download the software for your hardware and use the configuration in this repository.
+- Pros
+  - Works on any keyboard
+  - Doesn't require configuring a keyboard using special software
+  - Adapts to just about anything keyboard device
+- Cons
+  - If Karabiner-Elements ever ceases to exist then you can't use this
 
-Mac uses ~macbook-pro-late-2013.json~ for Karabiner
+The hardware route uses a programmable keyboard. For example using a [[https://www.amazon.com/Durgod-Taurus-Mechanical-Gaming-Keyboard/dp/B07QK16RDQ/ref=sr_1_3][Durgod Taurus K320 TKL]] and their [[http://www.durgod.com/page6?_l=en][Zeus Engine (keyboard configurator software)]] that runs on Windows.
 
-Durgod uses ~DurgodTaurusK320TKL.xml~ for their Zeus Engine.
+- Pros
+  - Doesn't require Karabiner-Elements
+- Cons
+  - Hard to program, requires a Windows box
 
-Load the ~maccadet.el~ file in your init file.
+This page documents using both the software and hardware route.
 
-* Legend
+* First: The Legend
+
+The work of each configuration is mapping from one key to another so this Emacs config can give you better modifier key bindings. In order to make sense of the approach there are screenshots documenting them. Since they'll show up in the software and hardware configuration it is better to read about the approach first. Here is how it will work:
 
 The pink keys were remapped from their hardware configuration. Their defintion is contained on the cap itself. They are in the form of:
 
@@ -69,22 +77,41 @@ Here are the characters for specifying the modifier in your key bindings (these 
 - H : Hyper
 - A : Alt
 
-The setups follow.
+* Software
 
-Notable about each keyboard is that you can press the keys "Control-Meta-Super-Hyper-Alt-Shift" with one hand. For example
+Karabiner-Elements config file is =karabiner.json=
+
+=karabiner.json= defines a single profile named =MacCadet=.
+
+The =MacCadet= profile defines key mappings for multiple keyboards.
+
+For example under =Devices \rarr Basic configuration= you'll see both an Apple internal keyboard and a USB Keyboard listed. Each keyboard is configured individually within the single profile. Before looking at how keyboards are used with =MacCadet= read about how Karabiner is configured [[https://karabiner-elements.pqrs.org/docs/][here]].
+
+All keyboards have a unique =Vendor ID= and =Product ID=. If Karabiner recognizes your keyboard then it will show up listed correctly under =Devices=. If it doesn't recognize your keyboard then it will probably get listed as =USB Keyboard (No manufacturer name)=. However your keyboard shows up we can add it to this configuration with its real name along with the Vendor and Product ID. The following show the current configuration along with keyboard types.
+
+** MacBook Pro Late 2013, Vendor ID 1452 Product ID 610: Apple Internal Keyobard / Trackpad (Apple Inc.)
+
+[[file:/macbook-pro-late-2013.png]]
+
+** WASD Code V2, Vendor ID 1241 Product ID 361: USB Keyboard (No manufacturer name)
+
+[[file:/wasd-code-v2.png]]
+
+* Hardware
+
+You need a [[https://www.amazon.com/Durgod-Taurus-Mechanical-Gaming-Keyboard/dp/B07QK16RDQ/ref=sr_1_3][Durgod Taurus K320 TKL]] and their [[http://www.durgod.com/page6?_l=en][Zeus Engine (keyboard configurator software)]] that runs on Windows.
+
+The Durgod uses ~DurgodTaurusK320TKL.xml~ for their Zeus Engine. Import it as a custom profile then flash it to your keyboard.
+
+[[file:/DurgodTaurusK320TKL.png]]
+
+This configuration is fun because it uses the right side page navigation keys (Home, End, ...) as an Emacs modifier cluster. With this approach you can press the keys "Control-Meta-Super-Hyper-Alt-Shift" with one hand.
+
+[[file:allmodifiers.png]]
 
 #+BEGIN_SRC emacs-lisp
 (defun test () (interactive) (message "Yup, it worked."))
 (global-set-key (kbd "C-M-s-H-A-F") #'test)
 #+END_SRC
 
-[[file:allmodifiers.png]]
-
-
-** Durgod Taurus K320 TKL
-
-[[file:/DurgodTaurusK320TKL.png]]
-
-** MacBook Pro Late 2013
-
-[[file:/macbook-pro-late-2013.png]]
+It is worth trying out just for the fun of it. Surely there is someone out there who can take advantage of this. For the rest of us, =MacCadet= leaves those keys alone because they can be akward to use.

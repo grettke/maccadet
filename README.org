@@ -15,8 +15,6 @@ Use all of Emacs's modifiers on macOS with various keyboards.
 -  [[#usage][Usage]]
 -  [[#first-the-legend][First: The Legend]]
 -  [[#software][Software]]
-  -  [[#macbook-pro-late-2013-vendor-id-1452-product-id-610-apple-internal-keyobard--trackpad-apple-inc][MacBook Pro Late 2013, Vendor ID 1452 Product ID 610: Apple Internal Keyobard / Trackpad (Apple Inc.)]]
-  -  [[#wasd-code-v2-vendor-id-1241-product-id-361-usb-keyboard-no-manufacturer-name][WASD Code V2, Vendor ID 1241 Product ID 361: USB Keyboard (No manufacturer name)]]
 -  [[#hardware][Hardware]]
 
 * Purpose
@@ -90,11 +88,17 @@ For example under =Devices \rarr Basic configuration= you'll see both an Apple i
 
 All keyboards have a unique =Vendor ID= and =Product ID=. If Karabiner recognizes your keyboard then it will show up listed correctly under =Devices=. If it doesn't recognize your keyboard then it will probably get listed as =USB Keyboard (No manufacturer name)=. However your keyboard shows up we can add it to this configuration with its real name along with the Vendor and Product ID. The following show the current configuration along with keyboard types.
 
-** MacBook Pro Late 2013, Vendor ID 1452 Product ID 610: Apple Internal Keyobard / Trackpad (Apple Inc.)
+- MacBook Pro Late 2013
+  - Device: Apple Internal Keyobard / Trackpad (Apple Inc.)
+  - Vendor ID 1452
+  - Product ID 610
 
 [[file:/macbook-pro-late-2013.png]]
 
-** WASD Code V2, Vendor ID 1241 Product ID 361: USB Keyboard (No manufacturer name)
+- WASD Code V2 PS2/USB
+  - Device: USB Keyboard (No manufacturer name)
+  - Vendor ID 1241
+  - Product ID 361
 
 [[file:/wasd-code-v2.png]]
 

@@ -29,7 +29,7 @@ When non-Emacs users observe Emacs users laboring over their key binding configu
 - Minimize invasive changes to
   - the physical keyboard layout
   - the Emacs bindings for which you already have strong muscle memory.
-  - the built-in macOS's keybindings
+  - the built-in macOS keybindings
 
 * Requirements And Compatibility
 

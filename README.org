@@ -12,11 +12,12 @@ Use all of Emacs's modifiers on macOS with various keyboards.
 -  [[#table-of-contents][Table of Contents]]
 -  [[#purpose][Purpose]]
 -  [[#goal][Goal]]
--  [[#requirements-and-compatibility][Requirements And Compatibility]]
--  [[#use][Use]]
--  [[#legend][Legend]]
-  -  [[#durgod-taurus-k320-tkl][Durgod Taurus K320 TKL]]
-  -  [[#macbook-pro-late-2013][MacBook Pro Late 2013]]
+-  [[#usage][Usage]]
+-  [[#first-the-legend][First: The Legend]]
+-  [[#software][Software]]
+  -  [[#macbook-pro-late-2013-vendor-id-1452-product-id-610-apple-internal-keyobard--trackpad-apple-inc][MacBook Pro Late 2013, Vendor ID 1452 Product ID 610: Apple Internal Keyobard / Trackpad (Apple Inc.)]]
+  -  [[#wasd-code-v2-vendor-id-1241-product-id-361-usb-keyboard-no-manufacturer-name][WASD Code V2, Vendor ID 1241 Product ID 361: USB Keyboard (No manufacturer name)]]
+-  [[#hardware][Hardware]]
 
 * Purpose
 

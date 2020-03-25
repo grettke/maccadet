@@ -1,3 +1,5 @@
+#+title: MacCadet
+
 * About
 
 Use all of Emacs's modifiers on macOS with various keyboards.

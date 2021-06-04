@@ -14,11 +14,17 @@
     },
     "\n\n\nF1\n\n\n\n\n\n🖥️💡▼",
     "\n\n\nF2\n\n\n\n\n\n🖥️💡▲",
-    "\n\n\nF3\n\n\n\n\n\n🧱",
+    {
+      "c": "#48e8de"
+    },
+    "\n\n\nF3\n\n\n\n\ncaps lock",
     {
       "w": 1.25
     },
-    "\n\n\nF4\n\n\n\n\n\n🚀",
+    "\n\n\nF4\n\n\n\n\n\nRALT",
+    {
+      "c": "#cccccc"
+    },
     "\n\n\nF5\n\n\n\n\n\n⌨️💡▼",
     "\n\n\nF6\n\n\n\n\n\n⌨️💡▲",
     "\n\n\nF7\n\n\n\n\n\n⏪",
@@ -146,9 +152,12 @@
   ],
   [
     {
-      "c": "#ffbaba"
+      "c": "#48e8de"
     },
     "\nfn\n\n\n\n\n\n\n\"s\"\nFN",
+    {
+      "c": "#ffbaba"
+    },
     "\ncontrol\n\n\n\n\n\n\n\"H\"\nRGUI",
     {
       "c": "#f5be20"

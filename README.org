@@ -24,11 +24,13 @@ When non-Emacs users observe Emacs users laboring over their key binding configu
 * Goal
 
 - Usable on stock Mac keyboards and Windows (ANSI) keyboard.
-- Mirrored meta keys
+- Mirrored meta keys as much as possible
 - Minimize invasive changes to
   - the physical keyboard layout
   - the Emacs bindings for which you already have strong muscle memory.
   - the built-in macOS keybindings
+- Leave door open to "correcting" physical keyboard layout and built-in macOS keybindings to our advantage.
+  - For example stomp on probably useless keys to make our real life easier.
 
 * Usage
 
@@ -58,23 +60,24 @@ This page documents using both the software and hardware route.
 
 The work of each configuration is mapping from one key to another so this Emacs config can give you better modifier key bindings. In order to make sense of the approach there are screenshots documenting them. Since they'll show up in the software and hardware configuration it is better to read about the approach first. Here is how it will work:
 
-The pink keys were remapped from their hardware configuration. Their defintion is contained on the cap itself. They are in the form of:
+** Related to Emacs
+
+The pink keys were remapped from their hardware configuration. Their defintion is contained on the cap itself Mac keyboards invert this PC order, so flip it around on them.
 
 - Physical key name.
 - The key it is getting mapped to (either a USB spec modifier name or a shortened ANSI name).
-- The Emacs modifier for it.
+- The Emacs modifier it provides. Here are the characters for specifying the modifier in your key bindings (these are the last character listed on the keycap here):
+  - C : Control
+  - M : Meta
+  - s : Super
+  - H : Hyper
+  - A : Alt
 
-On the ANSI keyboard they go from top to bottom. mac keyboard they go from bottom to top.
+The orange keys provide an Emacs modifier but without any remapping.
 
-The orange keys are not remapped but they've got a modifier configured for them in Emacs.
+** Unrelated to Emacs
 
-Here are the characters for specifying the modifier in your key bindings (these are the last character listed on the keycap here):
-
-- C : Control
-- M : Meta
-- s : Super
-- H : Hyper
-- A : Alt
+Any mappings unrelated to Emacs are colored in cyan.
 
 * Software
 

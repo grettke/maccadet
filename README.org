@@ -130,7 +130,7 @@ This configuration is fun because it uses the right side page navigation keys (H
 
 #+BEGIN_SRC emacs-lisp
 (defun test () (interactive) (message "Yup, it worked."))
-(global-set-key (kbd "C-M-s-H-A-F") #'test)
+(global-set-key (kbd "C-M-s-H-A") #'test)
 #+END_SRC
 
 It is worth trying out just for the fun of it. Surely there is someone out there who can take advantage of this. For the rest of us, =MacCadet= leaves those keys alone because they can be akward to use.

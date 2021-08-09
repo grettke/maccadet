@@ -75,7 +75,7 @@ Key Color Code provide a quick reminder for how and why the key is configured:
 - Orange Keys :: Provide modifier without remapping.
 - Cyan Keys :: Relocated keys stolen for modifiers.
 
-Read the text on the keys from bottom to top on a Mac keyboard and top to bottom on a Windows keyboard:
+Read the text on the keys from bottom to top on a Mac keyboard. On a Windows keyboard they are listed in reverse order: Physical key name, mapped to, then Emacs key.
 
 - The Emacs modifier it provides: /if/ it provides one (Orange keys don't), otherwise it is blank
    - Here are the characters for specifying the modifier in your key bindings (these are the last character listed on the keycap here):

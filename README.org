@@ -75,17 +75,17 @@ Key Color Code provide a quick reminder for how and why the key is configured:
 - Orange Keys :: Provide modifier without remapping.
 - Cyan Keys :: Relocated keys stolen for modifiers.
 
-Read the text on the keys from top to bottom (currently three entries) to see what is configured for that key:
+Read the text on the keys from bottom to top on a Mac keyboard and top to bottom on a Windows keyboard:
 
-1. Physical key name.
-2. The key it is getting mapped to (either a USB spec modifier name or a shortened ANSI name).
-3. The Emacs modifier it provides: /if/ it provides one (Orange keys don't), otherwise it is blank
+- The Emacs modifier it provides: /if/ it provides one (Orange keys don't), otherwise it is blank
    - Here are the characters for specifying the modifier in your key bindings (these are the last character listed on the keycap here):
   - C :: Control
   - M :: Meta
   - s :: Super
   - H :: Hyper
   - A :: Alt
+- The key it is getting mapped to (either a USB spec modifier name or a shortened ANSI name).
+- Physical key name.
 
 * Software
 

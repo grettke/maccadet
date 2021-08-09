@@ -29,6 +29,15 @@ When non-Emacs users observe Emacs users laboring over their key binding configu
   - the physical keyboard layout
   - the Emacs bindings for which you already have strong muscle memory.
   - the built-in macOS keybindings
+  - the *most egregious violation here is stomping on*:
+    - ~F3~
+      - On Mac OS X: Opens Mission Control.
+      - On Windows: Opens search feature in Windows Explorer.
+      - In MS Word: Shift + F3 lets you change from lowercase to uppercase to all caps.
+      - In Chrome and Firefox: Opens find feature
+    - ~F4~
+      - On Mac OS X: Opens Launchpad
+      - On Windows: Alt + F4 closes window. In Windows Explorer places the cursor in the address bar in Explorer
 - Leave door open to "correcting" physical keyboard layout and built-in macOS keybindings to our advantage.
   - For example stomp on probably useless keys to make our real life easier.
 
@@ -60,24 +69,23 @@ This page documents using both the software and hardware route.
 
 The work of each configuration is mapping from one key to another so this Emacs config can give you better modifier key bindings. In order to make sense of the approach there are screenshots documenting them. Since they'll show up in the software and hardware configuration it is better to read about the approach first. Here is how it will work:
 
-** Related to Emacs
+Key Color Code provide a quick reminder for how and why the key is configured:
 
-The pink keys were remapped from their hardware configuration. Their defintion is contained on the cap itself Mac keyboards invert this PC order, so flip it around on them.
+- Pink Keys :: Remapped from their hardware configuration providing modifier.
+- Orange Keys :: Provide modifier without remapping.
+- Cyan Keys :: Relocated keys stolen for modifiers.
 
-- Physical key name.
-- The key it is getting mapped to (either a USB spec modifier name or a shortened ANSI name).
-- The Emacs modifier it provides. Here are the characters for specifying the modifier in your key bindings (these are the last character listed on the keycap here):
-  - C : Control
-  - M : Meta
-  - s : Super
-  - H : Hyper
-  - A : Alt
+Read the text on the keys from top to bottom (currently three entries) to see what is configured for that key:
 
-The orange keys provide an Emacs modifier but without any remapping.
-
-** Unrelated to Emacs
-
-Any mappings unrelated to Emacs are colored in cyan.
+1. Physical key name.
+2. The key it is getting mapped to (either a USB spec modifier name or a shortened ANSI name).
+3. The Emacs modifier it provides: /if/ it provides one (Orange keys don't), otherwise it is blank
+   - Here are the characters for specifying the modifier in your key bindings (these are the last character listed on the keycap here):
+  - C :: Control
+  - M :: Meta
+  - s :: Super
+  - H :: Hyper
+  - A :: Alt
 
 * Software
 
@@ -105,6 +113,9 @@ All keyboards have a unique =Vendor ID= and =Product ID=. If Karabiner recognize
 
 [[file:/wasd-code-v2.png]]
 
+- Durgod Taurus K320 TKL
+  - Configured the same as the WASD but the Fn is disabled instead of the Menu key.
+
 * Hardware
 
 You need a [[https://www.amazon.com/Durgod-Taurus-Mechanical-Gaming-Keyboard/dp/B07QK16RDQ/ref=sr_1_3][Durgod Taurus K320 TKL]] and their [[http://www.durgod.com/page6?_l=en][Zeus Engine (keyboard configurator software)]] that runs on Windows.
@@ -113,7 +124,7 @@ The Durgod uses ~DurgodTaurusK320TKL.xml~ for their Zeus Engine. Import it as a 
 
 [[file:/DurgodTaurusK320TKL.png]]
 
-This configuration is fun because it uses the right side page navigation keys (Home, End, ...) as an Emacs modifier cluster. With this approach you can press the keys "Control-Meta-Super-Hyper-Alt-Shift" with one hand.
+This configuration is fun because it uses the right side page navigation keys (Home, End, ...) as an Emacs modifier cluster. With this approach you can press the keys "Control-Meta-Super-Hyper-Alt-Shift" with one hand. In practice though this keyboard's configuration in the first part is more practical /and/ consistent with the MacBook Pro approach making it easier when you switch between the laptop and it's exter
 
 [[file:allmodifiers.png]]
 

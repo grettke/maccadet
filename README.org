@@ -113,10 +113,11 @@ All keyboards have a unique =Vendor ID= and =Product ID=. If Karabiner recognize
 
 [[file:/wasd-code-v2.png]]
 
+* Hardware
+** Durgod Taurus
+
 - Durgod Taurus K320 TKL
   - Configured the same as the WASD but the Fn is disabled instead of the Menu key.
-
-* Hardware
 
 You need a [[https://www.amazon.com/Durgod-Taurus-Mechanical-Gaming-Keyboard/dp/B07QK16RDQ/ref=sr_1_3][Durgod Taurus K320 TKL]] and their [[http://www.durgod.com/page6?_l=en][Zeus Engine (keyboard configurator software)]] that runs on Windows.
 

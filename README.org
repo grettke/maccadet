@@ -114,6 +114,17 @@ All keyboards have a unique =Vendor ID= and =Product ID=. If Karabiner recognize
 [[file:/wasd-code-v2.png]]
 
 * Hardware
+** Keychron C3 Pro
+
+- This keyboard uses [[https://qmk.fm/][QMK Firmware]]. You are free to modify /every key/.
+  Consequently you can redefine even the keyboard-specifc "Menu (M1)" key itself.
+  This configuration is the same as the with the exception that the M1 gets
+  pushed to the end of the bottom row. Its nice to keep all of the modifiers on
+  the bottom row. That alone warrants buying a QMK-based keyboard.
+- This is identical to the WASD with M1 and Right-Control swapped
+- This report doesn't store the configuration
+
+
 ** Durgod Taurus
 
 - Durgod Taurus K320 TKL
